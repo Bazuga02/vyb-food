@@ -12,6 +12,10 @@ A resilient system that estimates nutrition information for Indian home-cooked d
 - Comprehensive logging and assumption tracking
 - Edge case handling
 
+## API Documentation
+
+The API documentation is available at: [API Documentation](https://vyb-food.onrender.com/api-doc)
+
 ## Project Structure
 
 ```

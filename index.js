@@ -146,8 +146,11 @@ async function processTestDishes() {
   fs.writeFileSync(path.join(__dirname, "debug-log.txt"), debugLog.join("\n"));
 
   console.log(
-    "\nProcessing complete! Check results.json and debug-log.txt for details."
+    "Processing complete! Check results.json and debug-log.txt for details."
   );
+
+  // Close the application after processing
+  process.exit(0);
 }
 
 // Start the server
