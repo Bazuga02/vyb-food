@@ -14,7 +14,7 @@ A resilient system that estimates nutrition information for Indian home-cooked d
 
 ## API Documentation
 
-The API documentation is available at: [API Documentation](https://vyb-food.onrender.com/api-doc)
+The API documentation is available at: [API Documentation](https://vyb-food.onrender.com/api-docs)
 
 ## Project Structure
 
