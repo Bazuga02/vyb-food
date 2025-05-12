@@ -148,9 +148,6 @@ async function processTestDishes() {
   console.log(
     "Processing complete! Check results.json and debug-log.txt for details."
   );
-
-  // Close the application after processing
-  process.exit(0);
 }
 
 // Start the server
@@ -160,6 +157,9 @@ app.listen(port, () => {
   console.log(
     `API Documentation available at http://localhost:${port}/api-docs`
   );
-  // Process test dishes after server starts
-  processTestDishes().catch(console.error);
+
+  // Only process test dishes if we're in development mode
+  if (process.env.NODE_ENV !== "production") {
+    processTestDishes().catch(console.error);
+  }
 });
