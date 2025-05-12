@@ -17,16 +17,22 @@ A resilient system that estimates nutrition information for Indian home-cooked d
 ```
 nutrition-estimator/
 ├── data/
-│   ├── nutrition-db.json        # Processed nutrition database
-│   ├── ingredient-mapping.json  # Ingredient synonyms and variations
-│   └── unit-mapping.json        # Unit conversion mappings
+│   ├── nutrition-db.json              # Processed nutrition database
+│   ├── ingredient-mapping.json        # Ingredient synonyms and variations
+│   ├── unit-mapping.json             # Unit conversion mappings
+│   └── common-indian-ingredients.json # Common Indian ingredients list
 ├── utils/
-│   ├── NutritionEstimator.js    # Core nutrition estimation logic
-│   └── processNutritionData.js  # CSV to JSON processor
-├── index.js                     # Main script
-├── results.json                 # Generated results
-├── debug-log.txt               # Processing logs
-└── README.md                   # This file
+│   ├── NutritionEstimator.js         # Core nutrition estimation logic
+│   └── processNutritionData.js       # CSV to JSON processor
+├── public/                           # Static files for web interface
+├── test/                            # Test cases and test data
+├── index.js                         # Main application entry point
+├── swagger.js                       # API documentation
+├── test-dishes.json                 # Sample dishes for testing
+├── results.json                     # Generated results
+├── debug-log.txt                    # Processing logs
+├── package.json                     # Project dependencies
+└── README.md                        # Project documentation
 ```
 
 ## Setup
