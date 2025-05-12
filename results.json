@@ -4,18 +4,18 @@
     "dishType": "Dry Sabzi",
     "assumptions": [
       "Ingredient \"amchur (dry mango powder)\" not found in nutrition DB, using closest match",
-      "Ingredient \"fresh coriander leaves\" not found in nutrition DB, using closest match"
+      "Ingredient \"coriander leaves\" not found in nutrition DB, using closest match"
     ],
     "ingredients": [
       {
         "ingredient": "potatoes",
-        "quantity": 500,
-        "unit": "grams"
+        "quantity": 0.5,
+        "unit": "kilogram"
       },
       {
         "ingredient": "cumin seeds",
         "quantity": 1.5,
-        "unit": "teaspoons"
+        "unit": "teaspoon"
       },
       {
         "ingredient": "turmeric powder",
@@ -24,7 +24,7 @@
       },
       {
         "ingredient": "red chili powder",
-        "quantity": 0.25,
+        "quantity": 0.5,
         "unit": "teaspoon"
       },
       {
@@ -38,62 +38,19 @@
         "unit": "teaspoon"
       },
       {
-        "ingredient": "ginger-garlic paste",
-        "quantity": 1,
+        "ingredient": "garam masala",
+        "quantity": 0.25,
         "unit": "teaspoon"
+      },
+      {
+        "ingredient": "ginger",
+        "quantity": 1,
+        "unit": "inch"
       },
       {
         "ingredient": "green chilies",
-        "quantity": 1,
+        "quantity": 2,
         "unit": "number"
-      },
-      {
-        "ingredient": "cooking oil",
-        "quantity": 2,
-        "unit": "tablespoons"
-      },
-      {
-        "ingredient": "fresh coriander leaves",
-        "quantity": 2,
-        "unit": "tablespoons"
-      },
-      {
-        "ingredient": "salt",
-        "quantity": 1,
-        "unit": "teaspoon"
-      }
-    ],
-    "nutrition": {
-      "totalWeight": 100,
-      "nutritionPer100g": {
-        "energy_kcal": 191.27,
-        "carb_g": 26.37,
-        "protein_g": 4.37,
-        "fat_g": 7.27,
-        "free_sugar_g": 2.71,
-        "fibre_g": 5.16
-      },
-      "nutritionPerKatori": {
-        "energy_kcal": 344.286,
-        "carb_g": 47.466,
-        "protein_g": 7.8660000000000005,
-        "fat_g": 13.085999999999999,
-        "free_sugar_g": 4.878,
-        "fibre_g": 9.288
-      }
-    }
-  },
-  {
-    "dishName": "Gobhi Sabzi",
-    "dishType": "Dry Sabzi",
-    "assumptions": [
-      "Ingredient \"fresh coriander leaves\" not found in nutrition DB, using closest match"
-    ],
-    "ingredients": [
-      {
-        "ingredient": "cauliflower florets",
-        "quantity": 1,
-        "unit": "medium"
       },
       {
         "ingredient": "oil",
@@ -101,95 +58,53 @@
         "unit": "tablespoon"
       },
       {
-        "ingredient": "cumin seeds",
-        "quantity": 1,
-        "unit": "teaspoon"
-      },
-      {
-        "ingredient": "asafoetida",
-        "quantity": 0.25,
-        "unit": "teaspoon"
-      },
-      {
-        "ingredient": "ginger-garlic paste",
-        "quantity": 1,
-        "unit": "tablespoon"
-      },
-      {
-        "ingredient": "green chilies",
-        "quantity": 2,
-        "unit": "number"
-      },
-      {
-        "ingredient": "turmeric powder",
-        "quantity": 0.5,
-        "unit": "teaspoon"
-      },
-      {
-        "ingredient": "red chili powder",
-        "quantity": 1,
-        "unit": "teaspoon"
-      },
-      {
-        "ingredient": "coriander powder",
-        "quantity": 2,
-        "unit": "teaspoon"
-      },
-      {
-        "ingredient": "garam masala",
-        "quantity": 0.5,
-        "unit": "teaspoon"
-      },
-      {
         "ingredient": "salt",
         "quantity": 1,
         "unit": "teaspoon"
       },
       {
-        "ingredient": "fresh coriander leaves",
+        "ingredient": "coriander leaves",
         "quantity": 2,
         "unit": "tablespoon"
       }
     ],
     "nutrition": {
-      "totalWeight": 200,
+      "totalWeight": 215,
       "nutritionPer100g": {
-        "energy_kcal": 191.27,
-        "carb_g": 26.37,
-        "protein_g": 4.37,
-        "fat_g": 7.27,
-        "free_sugar_g": 2.71,
-        "fibre_g": 5.16
+        "energy_kcal": 189.80976744186046,
+        "carb_g": 27.604186046511632,
+        "protein_g": 4.102790697674418,
+        "fat_g": 6.777441860465116,
+        "free_sugar_g": 5.488139534883721,
+        "fibre_g": 4.874651162790698
       },
       "nutritionPerKatori": {
-        "energy_kcal": 344.286,
-        "carb_g": 47.466,
-        "protein_g": 7.8660000000000005,
-        "fat_g": 13.085999999999999,
-        "free_sugar_g": 4.878,
-        "fibre_g": 9.288
+        "energy_kcal": 341.6575813953488,
+        "carb_g": 49.687534883720936,
+        "protein_g": 7.3850232558139535,
+        "fat_g": 12.199395348837209,
+        "free_sugar_g": 9.878651162790698,
+        "fibre_g": 8.774372093023258
       }
     }
   },
   {
-    "dishName": "Chana masala",
+    "dishName": "Gobhi Sabzi",
     "dishType": "Wet Sabzi",
     "assumptions": [
-      "Ingredient \"chickpeas\" not found in nutrition DB, using closest match",
-      "Ingredient \"garlic\" not found in nutrition DB, using closest match",
-      "Ingredient \"amchur powder\" not found in nutrition DB, using closest match",
-      "Ingredient \"fresh cilantro\" not found in nutrition DB, using closest match"
+      "Missing quantity/unit for \"green chilies\", using default values",
+      "Ingredient \"fresh coriander leaves\" not found in nutrition DB, using closest match"
     ],
     "ingredients": [
       {
-        "ingredient": "chickpeas",
+        "ingredient": "cauliflower",
         "quantity": 1,
-        "unit": "can"
+        "unit": "medium"
       },
       {
         "ingredient": "onion",
         "quantity": 1,
-        "unit": "large"
+        "unit": "medium"
       },
       {
         "ingredient": "tomato",
@@ -197,24 +112,14 @@
         "unit": "medium"
       },
       {
-        "ingredient": "ginger",
+        "ingredient": "green chilies",
+        "quantity": 2,
+        "unit": ""
+      },
+      {
+        "ingredient": "ginger-garlic paste",
         "quantity": 1,
         "unit": "tablespoon"
-      },
-      {
-        "ingredient": "garlic",
-        "quantity": 2,
-        "unit": "cloves"
-      },
-      {
-        "ingredient": "cumin seeds",
-        "quantity": 1,
-        "unit": "teaspoon"
-      },
-      {
-        "ingredient": "coriander powder",
-        "quantity": 2,
-        "unit": "teaspoons"
       },
       {
         "ingredient": "turmeric powder",
@@ -223,28 +128,43 @@
       },
       {
         "ingredient": "red chili powder",
+        "quantity": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "coriander powder",
+        "quantity": 1.5,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "cumin powder",
         "quantity": 0.5,
         "unit": "teaspoon"
       },
       {
         "ingredient": "garam masala",
-        "quantity": 1,
+        "quantity": 0.25,
         "unit": "teaspoon"
       },
       {
-        "ingredient": "amchur powder",
+        "ingredient": "asafoetida",
+        "quantity": 0.125,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "cumin seeds",
         "quantity": 1,
         "unit": "teaspoon"
       },
       {
         "ingredient": "oil",
         "quantity": 2,
-        "unit": "tablespoons"
+        "unit": "tablespoon"
       },
       {
-        "ingredient": "fresh cilantro",
-        "quantity": 0.25,
-        "unit": "cup"
+        "ingredient": "fresh coriander leaves",
+        "quantity": 2,
+        "unit": "tablespoon"
       }
     ],
     "nutrition": {
@@ -268,21 +188,19 @@
     }
   },
   {
-    "dishName": "Paneer Curry with capsicum",
+    "dishName": "Chana masala",
     "dishType": "Wet Sabzi",
     "assumptions": [
+      "Ingredient \"chickpeas\" not found in nutrition DB, using closest match",
+      "Ingredient \"amchur powder\" not found in nutrition DB, using closest match",
+      "Ingredient \"black cardamom\" not found in nutrition DB, using closest match",
       "Ingredient \"fresh coriander leaves\" not found in nutrition DB, using closest match"
     ],
     "ingredients": [
       {
-        "ingredient": "paneer",
-        "quantity": 200,
-        "unit": "grams"
-      },
-      {
-        "ingredient": "capsicum",
+        "ingredient": "chickpeas",
         "quantity": 1,
-        "unit": "large"
+        "unit": "cup"
       },
       {
         "ingredient": "onion",
@@ -306,7 +224,7 @@
       },
       {
         "ingredient": "coriander powder",
-        "quantity": 1.5,
+        "quantity": 2,
         "unit": "teaspoon"
       },
       {
@@ -325,14 +243,44 @@
         "unit": "teaspoon"
       },
       {
-        "ingredient": "cream",
-        "quantity": 2,
-        "unit": "tablespoon"
+        "ingredient": "amchur powder",
+        "quantity": 0.5,
+        "unit": "teaspoon"
       },
       {
         "ingredient": "oil",
         "quantity": 2,
         "unit": "tablespoon"
+      },
+      {
+        "ingredient": "asafoetida",
+        "quantity": 0.25,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "cumin seeds",
+        "quantity": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "bay leaf",
+        "quantity": 1,
+        "unit": "number"
+      },
+      {
+        "ingredient": "black cardamom",
+        "quantity": 1,
+        "unit": "number"
+      },
+      {
+        "ingredient": "cloves",
+        "quantity": 2,
+        "unit": "number"
+      },
+      {
+        "ingredient": "cinnamon stick",
+        "quantity": 0.5,
+        "unit": "inch"
       },
       {
         "ingredient": "salt",
@@ -343,6 +291,110 @@
         "ingredient": "fresh coriander leaves",
         "quantity": 2,
         "unit": "tablespoon"
+      }
+    ],
+    "nutrition": {
+      "totalWeight": 307.5,
+      "nutritionPer100g": {
+        "energy_kcal": 223.19349593495934,
+        "carb_g": 27.9869918699187,
+        "protein_g": 6.380487804878049,
+        "fat_g": 8.230894308943089,
+        "free_sugar_g": 1.4195121951219511,
+        "fibre_g": 23.747154471544718
+      },
+      "nutritionPerKatori": {
+        "energy_kcal": 401.74829268292683,
+        "carb_g": 50.376585365853664,
+        "protein_g": 11.484878048780487,
+        "fat_g": 14.81560975609756,
+        "free_sugar_g": 2.5551219512195122,
+        "fibre_g": 42.74487804878049
+      }
+    }
+  },
+  {
+    "dishName": "Paneer Curry with capsicum",
+    "dishType": "Wet Sabzi",
+    "assumptions": [
+      "Ingredient \"Kasuri methi\" not found in nutrition DB, using closest match",
+      "Ingredient \"Cilantro\" not found in nutrition DB, using closest match"
+    ],
+    "ingredients": [
+      {
+        "ingredient": "Paneer",
+        "quantity": 250,
+        "unit": "grams"
+      },
+      {
+        "ingredient": "Capsicum",
+        "quantity": 1,
+        "unit": "large"
+      },
+      {
+        "ingredient": "Onion",
+        "quantity": 1,
+        "unit": "medium"
+      },
+      {
+        "ingredient": "Tomato",
+        "quantity": 2,
+        "unit": "medium"
+      },
+      {
+        "ingredient": "Ginger-garlic paste",
+        "quantity": 1,
+        "unit": "tablespoon"
+      },
+      {
+        "ingredient": "Turmeric powder",
+        "quantity": 0.5,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "Red chili powder",
+        "quantity": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "Cumin powder",
+        "quantity": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "Coriander powder",
+        "quantity": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "Garam masala",
+        "quantity": 0.5,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "Kasuri methi",
+        "quantity": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "Cream",
+        "quantity": 2,
+        "unit": "tablespoons"
+      },
+      {
+        "ingredient": "Oil",
+        "quantity": 2,
+        "unit": "tablespoons"
+      },
+      {
+        "ingredient": "Salt",
+        "quantity": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "Cilantro",
+        "quantity": 2,
+        "unit": "tablespoons"
       }
     ],
     "nutrition": {
@@ -373,29 +425,29 @@
     ],
     "ingredients": [
       {
-        "ingredient": "carrot",
-        "quantity": 1,
-        "unit": "cup"
+        "ingredient": "carrots",
+        "quantity": 2,
+        "unit": "medium"
       },
       {
-        "ingredient": "cauliflower florets",
-        "quantity": 1,
-        "unit": "cup"
+        "ingredient": "potatoes",
+        "quantity": 2,
+        "unit": "medium"
       },
       {
         "ingredient": "green beans",
+        "quantity": 200,
+        "unit": "grams"
+      },
+      {
+        "ingredient": "cauliflower",
         "quantity": 0.5,
-        "unit": "cup"
+        "unit": "medium"
       },
       {
         "ingredient": "peas",
         "quantity": 0.5,
         "unit": "cup"
-      },
-      {
-        "ingredient": "potato",
-        "quantity": 1,
-        "unit": "medium"
       },
       {
         "ingredient": "onion",
@@ -404,7 +456,7 @@
       },
       {
         "ingredient": "tomato",
-        "quantity": 1,
+        "quantity": 2,
         "unit": "medium"
       },
       {
@@ -413,22 +465,22 @@
         "unit": "tablespoon"
       },
       {
-        "ingredient": "cumin seeds",
-        "quantity": 0.5,
-        "unit": "teaspoon"
-      },
-      {
         "ingredient": "turmeric powder",
         "quantity": 0.5,
         "unit": "teaspoon"
       },
       {
         "ingredient": "red chili powder",
-        "quantity": 0.5,
+        "quantity": 1,
         "unit": "teaspoon"
       },
       {
         "ingredient": "coriander powder",
+        "quantity": 1.5,
+        "unit": "teaspoon"
+      },
+      {
+        "ingredient": "cumin powder",
         "quantity": 1,
         "unit": "teaspoon"
       },
@@ -449,22 +501,22 @@
       }
     ],
     "nutrition": {
-      "totalWeight": 720,
+      "totalWeight": 120,
       "nutritionPer100g": {
-        "energy_kcal": 118.74333333333333,
-        "carb_g": 15.133333333333333,
-        "protein_g": 3.163333333333333,
-        "fat_g": 5.301666666666667,
-        "free_sugar_g": 2.975,
-        "fibre_g": 3.2716666666666665
+        "energy_kcal": 243.32,
+        "carb_g": 26.92,
+        "protein_g": 7.92,
+        "fat_g": 12.27,
+        "free_sugar_g": 2.85,
+        "fibre_g": 1.9699999999999998
       },
       "nutritionPerKatori": {
-        "energy_kcal": 213.738,
-        "carb_g": 27.24,
-        "protein_g": 5.694,
-        "fat_g": 9.543000000000001,
-        "free_sugar_g": 5.355,
-        "fibre_g": 5.888999999999999
+        "energy_kcal": 437.976,
+        "carb_g": 48.456,
+        "protein_g": 14.255999999999998,
+        "fat_g": 22.086,
+        "free_sugar_g": 5.13,
+        "fibre_g": 3.546
       }
     }
   }

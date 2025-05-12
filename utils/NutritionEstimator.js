@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+require("dotenv").config();
 
 class NutritionEstimator {
   constructor() {
@@ -13,8 +14,11 @@ class NutritionEstimator {
       "../data/common-indian-ingredients.json"
     );
 
-    // Initialize Gemini with API key
-    const apiKey = "AIzaSyAcy6yl7vqHvvD8rUKoKl6Dn23Ikm7Iad4";
+    // Initialize Gemini with API key from environment variable
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey) {
+      throw new Error("GEMINI_API_KEY environment variable is not set");
+    }
     this.gemini = new GoogleGenerativeAI(apiKey);
 
     this.dishTypes = [
