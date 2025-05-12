@@ -1,0 +1,94 @@
+{
+  "volume": {
+    "tbsp": {
+      "default": 15,
+      "density_adjustments": {
+        "oil": 13,
+        "sugar": 12.5,
+        "flour": 8,
+        "rice": 12,
+        "dal": 12,
+        "spices": 8,
+        "cream": 14,
+        "butter": 14,
+        "ghee": 13
+      }
+    },
+    "tsp": {
+      "default": 5,
+      "density_adjustments": {
+        "oil": 4.3,
+        "sugar": 4.2,
+        "flour": 2.6,
+        "rice": 4,
+        "dal": 4,
+        "spices": 2.5,
+        "cream": 4.5,
+        "butter": 4.5,
+        "ghee": 4.3
+      }
+    },
+    "cup": {
+      "default": 240,
+      "density_adjustments": {
+        "oil": 208,
+        "sugar": 200,
+        "flour": 128,
+        "rice": 192,
+        "dal": 192,
+        "spices": 128,
+        "cream": 224,
+        "butter": 224,
+        "ghee": 208
+      }
+    },
+    "glass": {
+      "default": 200,
+      "density_adjustments": {
+        "water": 200,
+        "milk": 200,
+        "juice": 200,
+        "curd": 200
+      }
+    },
+    "katori": {
+      "default": 180,
+      "density_adjustments": {
+        "rice": 144,
+        "dal": 144,
+        "sabzi": 144
+      }
+    }
+  },
+  "weight": {
+    "kg": 1000,
+    "g": 1,
+    "mg": 0.001
+  },
+  "count": {
+    "piece": {
+      "default": 100,
+      "adjustments": {
+        "small": 50,
+        "medium": 100,
+        "large": 150
+      }
+    },
+    "number": {
+      "default": 100,
+      "adjustments": {
+        "small": 50,
+        "medium": 100,
+        "large": 150
+      }
+    },
+    "inch": {
+      "default": 15,
+      "adjustments": {
+        "small": 10,
+        "medium": 15,
+        "large": 20
+      }
+    }
+  }
+}

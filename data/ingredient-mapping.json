@@ -1,0 +1,266 @@
+{
+  "spices": {
+    "jeera": [
+      "cumin",
+      "jeera powder",
+      "cumin powder",
+      "jeera seeds",
+      "cumin seeds",
+      "zeera",
+      "jeera"
+    ],
+    "haldi": [
+      "turmeric",
+      "turmeric powder",
+      "haldi powder",
+      "yellow powder",
+      "haldi"
+    ],
+    "dhaniya": [
+      "coriander",
+      "coriander powder",
+      "dhaniya powder",
+      "coriander leaves",
+      "dhaniya leaves",
+      "fresh coriander",
+      "fresh cilantro",
+      "cilantro",
+      "coriander seeds",
+      "dhaniya",
+      "hara dhaniya"
+    ],
+    "garam masala": [
+      "garam masala powder",
+      "spice mix",
+      "indian spice mix",
+      "garam masala"
+    ],
+    "red chilli": [
+      "red chilli powder",
+      "lal mirch",
+      "red pepper",
+      "chili powder",
+      "chilli powder",
+      "red chili powder",
+      "lal mirch powder"
+    ],
+    "amchur": [
+      "dry mango powder",
+      "amchur powder",
+      "mango powder",
+      "amchur",
+      "khatta powder"
+    ],
+    "kasuri methi": [
+      "dried fenugreek leaves",
+      "fenugreek leaves",
+      "methi leaves",
+      "kasuri methi",
+      "dry methi"
+    ],
+    "hing": ["asafoetida", "asafetida", "heeng", "hing powder"],
+    "ginger-garlic paste": [
+      "ginger garlic paste",
+      "adrak lehsun paste",
+      "ginger garlic",
+      "adrak lehsun"
+    ],
+    "black cardamom": [
+      "badi elaichi",
+      "kali elaichi",
+      "black elaichi",
+      "cardamom black"
+    ],
+    "green cardamom": [
+      "choti elaichi",
+      "hari elaichi",
+      "cardamom green",
+      "elaichi"
+    ],
+    "bay leaf": ["tej patta", "bay leaves", "indian bay leaf", "cassia leaf"],
+    "cinnamon": ["dalchini", "cinnamon stick", "cinnamon bark"],
+    "cloves": ["laung", "lavang", "clove"],
+    "black pepper": ["kali mirch", "pepper", "black peppercorns"],
+    "carom seeds": ["ajwain", "ajowan", "carom", "bishop's weed"],
+    "fennel seeds": ["saunf", "fennel", "sweet cumin"],
+    "mustard seeds": ["rai", "sarson", "mustard", "yellow mustard"],
+    "fenugreek seeds": ["methi dana", "methi seeds", "fenugreek", "methi"],
+    "curry leaves": ["kadi patta", "meetha neem", "curry leaf", "sweet neem"],
+    "mace": ["javitri", "mace powder", "mace flower"],
+    "nutmeg": ["jaiphal", "nutmeg powder", "nutmeg whole"]
+  },
+  "vegetables": {
+    "aloo": ["potato", "potatoes", "batata", "aloo", "irish potato"],
+    "gobhi": [
+      "cauliflower",
+      "phool gobhi",
+      "cauliflower florets",
+      "gobi",
+      "gobhi",
+      "phoolgobhi"
+    ],
+    "pyaaz": ["onion", "onions", "kanda", "pyaaz", "red onion", "white onion"],
+    "tamatar": ["tomato", "tomatoes", "tamatar", "red tomato"],
+    "capsicum": [
+      "bell pepper",
+      "shimla mirch",
+      "green pepper",
+      "capsicum",
+      "sweet pepper",
+      "green capsicum"
+    ],
+    "baingan": [
+      "eggplant",
+      "brinjal",
+      "aubergine",
+      "baingan",
+      "purple brinjal"
+    ],
+    "gajar": ["carrot", "carrots", "gajar", "orange carrot"],
+    "matar": ["peas", "green peas", "matar", "fresh peas", "green matar"],
+    "beans": [
+      "green beans",
+      "french beans",
+      "sem",
+      "beans",
+      "string beans",
+      "snap beans"
+    ],
+    "hari mirch": [
+      "green chili",
+      "green chilies",
+      "green chilli",
+      "hari mirch",
+      "fresh green chili"
+    ],
+    "methi": [
+      "fenugreek leaves",
+      "methi leaves",
+      "fresh methi",
+      "methi",
+      "fenugreek greens"
+    ],
+    "palak": ["spinach", "palak", "fresh spinach", "green spinach"],
+    "lauki": ["bottle gourd", "lauki", "ghiya", "doodhi", "calabash"],
+    "tinda": ["apple gourd", "tinda", "tindora", "ivy gourd"],
+    "karela": ["bitter gourd", "karela", "bitter melon"],
+    "bhindi": ["okra", "bhindi", "lady's finger", "bhendi"],
+    "arbi": ["taro root", "arbi", "colocasia", "arvi"],
+    "shakarkandi": ["sweet potato", "shakarkandi", "sweet potato", "ratalu"]
+  },
+  "dairy": {
+    "paneer": [
+      "cottage cheese",
+      "indian cottage cheese",
+      "paneer",
+      "fresh paneer",
+      "homemade paneer"
+    ],
+    "dahi": [
+      "curd",
+      "yogurt",
+      "plain yogurt",
+      "dahi",
+      "fresh curd",
+      "homemade curd"
+    ],
+    "makhan": [
+      "butter",
+      "white butter",
+      "makhan",
+      "desi butter",
+      "homemade butter"
+    ],
+    "cream": [
+      "fresh cream",
+      "heavy cream",
+      "whipping cream",
+      "malai",
+      "fresh malai",
+      "homemade cream"
+    ],
+    "ghee": ["clarified butter", "pure ghee", "desi ghee", "homemade ghee"],
+    "khoya": ["mawa", "khoya", "milk solids", "reduced milk"],
+    "chenna": ["fresh cheese", "chenna", "homemade cheese", "paneer base"]
+  },
+  "pulses": {
+    "chana": [
+      "chickpeas",
+      "garbanzo beans",
+      "kabuli chana",
+      "chole",
+      "white chana",
+      "kabuli chana"
+    ],
+    "dal": ["lentils", "pulses", "daal", "split pulses"],
+    "moong dal": [
+      "mung dal",
+      "yellow moong dal",
+      "moong",
+      "yellow moong",
+      "split moong"
+    ],
+    "toor dal": [
+      "arhar dal",
+      "pigeon pea",
+      "tuvar dal",
+      "yellow dal",
+      "split toor"
+    ],
+    "urad dal": ["black gram", "urad", "split urad", "white urad"],
+    "masoor dal": ["red lentils", "masoor", "split masoor", "red dal"],
+    "chana dal": [
+      "split chickpeas",
+      "chana dal",
+      "split bengal gram",
+      "yellow chana dal"
+    ],
+    "rajma": [
+      "kidney beans",
+      "rajma",
+      "red kidney beans",
+      "dark red kidney beans"
+    ],
+    "lobia": ["black eyed peas", "lobia", "cowpea", "chawli"]
+  },
+  "oils": {
+    "ghee": ["clarified butter", "pure ghee", "desi ghee", "homemade ghee"],
+    "oil": [
+      "cooking oil",
+      "vegetable oil",
+      "refined oil",
+      "olive oil",
+      "tel",
+      "mustard oil",
+      "sesame oil",
+      "groundnut oil"
+    ]
+  },
+  "herbs": {
+    "adrak": ["ginger", "fresh ginger", "adrak", "raw ginger", "ginger root"],
+    "lehsun": [
+      "garlic",
+      "fresh garlic",
+      "lehsun",
+      "garlic cloves",
+      "raw garlic"
+    ],
+    "ginger-garlic": [
+      "ginger-garlic paste",
+      "ginger garlic paste",
+      "adrak lehsun paste",
+      "ginger garlic",
+      "adrak lehsun"
+    ],
+    "mint": ["pudina", "fresh mint", "mint leaves", "pudina leaves"],
+    "basil": ["tulsi", "holy basil", "basil leaves", "tulsi leaves"],
+    "green onions": ["spring onions", "scallions", "hara pyaaz", "green onion"]
+  },
+  "flours": {
+    "atta": ["wheat flour", "whole wheat flour", "atta", "chakki atta"],
+    "maida": ["all purpose flour", "refined flour", "maida", "white flour"],
+    "besan": ["gram flour", "chickpea flour", "besan", "bengal gram flour"],
+    "rice flour": ["chawal ka atta", "rice flour", "ground rice"],
+    "rava": ["semolina", "sooji", "rava", "cream of wheat"]
+  }
+}

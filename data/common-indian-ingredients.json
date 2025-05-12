@@ -1,0 +1,154 @@
+{
+  "spices": {
+    "turmeric powder": {
+      "energy_kcal": 312,
+      "carb_g": 64.9,
+      "protein_g": 9.7,
+      "fat_g": 3.3,
+      "free_sugar_g": 0,
+      "fibre_g": 21.1
+    },
+    "red chili powder": {
+      "energy_kcal": 282,
+      "carb_g": 49.7,
+      "protein_g": 12.0,
+      "fat_g": 13.0,
+      "free_sugar_g": 0,
+      "fibre_g": 27.2
+    },
+    "coriander powder": {
+      "energy_kcal": 298,
+      "carb_g": 55.0,
+      "protein_g": 12.4,
+      "fat_g": 17.8,
+      "free_sugar_g": 0,
+      "fibre_g": 41.9
+    },
+    "cumin seeds": {
+      "energy_kcal": 375,
+      "carb_g": 44.2,
+      "protein_g": 17.8,
+      "fat_g": 22.3,
+      "free_sugar_g": 0,
+      "fibre_g": 10.5
+    },
+    "garam masala": {
+      "energy_kcal": 315,
+      "carb_g": 58.0,
+      "protein_g": 12.0,
+      "fat_g": 8.0,
+      "free_sugar_g": 0,
+      "fibre_g": 25.0
+    },
+    "ginger-garlic paste": {
+      "energy_kcal": 80,
+      "carb_g": 17.8,
+      "protein_g": 1.8,
+      "fat_g": 0.6,
+      "free_sugar_g": 1.7,
+      "fibre_g": 2.0
+    },
+    "salt": {
+      "energy_kcal": 0,
+      "carb_g": 0,
+      "protein_g": 0,
+      "fat_g": 0,
+      "free_sugar_g": 0,
+      "fibre_g": 0
+    }
+  },
+  "vegetables": {
+    "potato": {
+      "energy_kcal": 77,
+      "carb_g": 17.2,
+      "protein_g": 2.0,
+      "fat_g": 0.1,
+      "free_sugar_g": 0.8,
+      "fibre_g": 2.2
+    },
+    "onion": {
+      "energy_kcal": 40,
+      "carb_g": 9.3,
+      "protein_g": 1.1,
+      "fat_g": 0.1,
+      "free_sugar_g": 4.2,
+      "fibre_g": 1.7
+    },
+    "tomato": {
+      "energy_kcal": 18,
+      "carb_g": 3.9,
+      "protein_g": 0.9,
+      "fat_g": 0.2,
+      "free_sugar_g": 2.6,
+      "fibre_g": 1.2
+    },
+    "cauliflower": {
+      "energy_kcal": 25,
+      "carb_g": 5.0,
+      "protein_g": 1.9,
+      "fat_g": 0.3,
+      "free_sugar_g": 1.9,
+      "fibre_g": 2.0
+    },
+    "capsicum": {
+      "energy_kcal": 20,
+      "carb_g": 4.6,
+      "protein_g": 0.9,
+      "fat_g": 0.2,
+      "free_sugar_g": 2.4,
+      "fibre_g": 1.7
+    },
+    "carrot": {
+      "energy_kcal": 41,
+      "carb_g": 9.6,
+      "protein_g": 0.9,
+      "fat_g": 0.2,
+      "free_sugar_g": 4.7,
+      "fibre_g": 2.8
+    },
+    "green peas": {
+      "energy_kcal": 81,
+      "carb_g": 14.5,
+      "protein_g": 5.4,
+      "fat_g": 0.4,
+      "free_sugar_g": 5.7,
+      "fibre_g": 5.1
+    },
+    "green beans": {
+      "energy_kcal": 31,
+      "carb_g": 7.0,
+      "protein_g": 1.8,
+      "fat_g": 0.2,
+      "free_sugar_g": 3.3,
+      "fibre_g": 2.7
+    }
+  },
+  "dairy": {
+    "paneer": {
+      "energy_kcal": 265,
+      "carb_g": 1.2,
+      "protein_g": 18.3,
+      "fat_g": 20.8,
+      "free_sugar_g": 0,
+      "fibre_g": 0
+    },
+    "cream": {
+      "energy_kcal": 340,
+      "carb_g": 2.8,
+      "protein_g": 2.1,
+      "fat_g": 36.0,
+      "free_sugar_g": 2.8,
+      "fibre_g": 0
+    }
+  },
+  "oils": {
+    "cooking oil": {
+      "energy_kcal": 884,
+      "carb_g": 0,
+      "protein_g": 0,
+      "fat_g": 100,
+      "free_sugar_g": 0,
+      "fibre_g": 0
+    }
+  }
+}

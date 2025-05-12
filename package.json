@@ -1,0 +1,21 @@
+{
+  "name": "nutrition-estimator",
+  "version": "1.0.0",
+  "description": "A smart nutrition estimator for Indian home-cooked dishes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "process-data": "node utils/processNutritionData.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "csv-parse": "^5.5.3",
+    "express": "^4.18.2",
+    "openai": "^4.28.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
