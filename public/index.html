@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Estimator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        input {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            margin-top: 20px;
+            padding: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: none;
+            background: #fafafa;
+        }
+
+        .section {
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        ul {
+            margin: 0 0 0 18px;
+        }
+
+        .error {
+            color: #b00020;
+            font-weight: bold;
+        }
+
+        .loading {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nutrition Estimator</h1>
+    <form id="dishForm">
+        <label for="dishName">Enter dish name:</label>
+        <input type="text" id="dishName" placeholder="e.g. jeera aloo" required autofocus>
+        <button type="submit">Estimate Nutrition</button>
+    </form>
+    <div id="loading" class="loading" style="display:none;">Estimating nutrition...</div>
+    <div id="result"></div>
+
+    <script>
+        function renderResult(data) {
+            if (data.error) {
+                return `<div class="error">${data.error}</div>`;
+            }
+            let html = '';
+            html += `<div class="section"><span class="section-title">Dish Name:</span> ${data.dishName || ''}</div>`;
+            html += `<div class="section"><span class="section-title">Dish Type:</span> ${data.dishType || ''}</div>`;
+            if (data.assumptions && data.assumptions.length) {
+                html += `<div class="section"><span class="section-title">Assumptions:</span><ul>` +
+                    data.assumptions.map(a => `<li>${a}</li>`).join('') + '</ul></div>';
+            }
+            if (data.ingredients && data.ingredients.length) {
+                html += `<div class="section"><span class="section-title">Ingredients:</span><ul>` +
+                    data.ingredients.map(i => `<li>${i.ingredient} - ${i.quantity || 'N/A'} ${i.unit || ''}</li>`).join('') + '</ul></div>';
+            }
+            if (data.nutrition) {
+                html += `<div class="section"><span class="section-title">Nutrition per 100g:</span><ul>` +
+                    Object.entries(data.nutrition.nutritionPer100g || {}).map(([k, v]) => `<li>${k}: ${v.toFixed(2)}</li>`).join('') + '</ul></div>';
+                html += `<div class="section"><span class="section-title">Nutrition per Katori (180g):</span><ul>` +
+                    Object.entries(data.nutrition.nutritionPerKatori || {}).map(([k, v]) => `<li>${k}: ${v.toFixed(2)}</li>`).join('') + '</ul></div>';
+            }
+            return html;
+        }
+
+        document.getElementById('dishForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const dishName = document.getElementById('dishName').value;
+            const resultDiv = document.getElementById('result');
+            const loadingDiv = document.getElementById('loading');
+            resultDiv.style.display = 'none';
+            loadingDiv.style.display = 'block';
+            resultDiv.innerHTML = '';
+
+            try {
+                const response = await fetch('/estimate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ dishName })
+                });
+                const data = await response.json();
+                loadingDiv.style.display = 'none';
+                resultDiv.innerHTML = renderResult(data);
+                resultDiv.style.display = 'block';
+            } catch (error) {
+                loadingDiv.style.display = 'none';
+                resultDiv.innerHTML = `<div class="error">Error: ${error.message}</div>`;
+                resultDiv.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+
+</html>

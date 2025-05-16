@@ -7,6 +7,7 @@ const swaggerSpecs = require("./swagger");
 
 const app = express();
 app.use(express.json());
+app.use(express.static("public"));
 
 // Initialize the nutrition estimator
 const estimator = new NutritionEstimator();
