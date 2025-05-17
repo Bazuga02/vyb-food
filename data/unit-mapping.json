@@ -63,7 +63,10 @@
   "weight": {
     "kg": 1000,
     "g": 1,
-    "mg": 0.001
+    "mg": 0.001,
+    "medium": 100,
+    "large": 150,
+    "small": 50
   },
   "count": {
     "piece": {

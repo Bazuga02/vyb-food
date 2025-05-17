@@ -55,6 +55,158 @@
       "fat_g": 0,
       "free_sugar_g": 0,
       "fibre_g": 0
+    },
+    "jeera": {
+      "energy_kcal": 375,
+      "carb_g": 44.2,
+      "protein_g": 17.8,
+      "fat_g": 22.3,
+      "free_sugar_g": 0,
+      "fibre_g": 10.5
+    },
+    "haldi": {
+      "energy_kcal": 312,
+      "carb_g": 64.9,
+      "protein_g": 9.7,
+      "fat_g": 3.3,
+      "free_sugar_g": 0,
+      "fibre_g": 21.1
+    },
+    "dhaniya": {
+      "energy_kcal": 298,
+      "carb_g": 55.0,
+      "protein_g": 12.4,
+      "fat_g": 17.8,
+      "free_sugar_g": 0,
+      "fibre_g": 41.9
+    },
+    "amchur": {
+      "energy_kcal": 360,
+      "carb_g": 90,
+      "protein_g": 0,
+      "fat_g": 0,
+      "free_sugar_g": 0,
+      "fibre_g": 20
+    },
+    "kasuri methi": {
+      "energy_kcal": 34.42,
+      "carb_g": 2.17,
+      "protein_g": 3.68,
+      "fat_g": 0.83,
+      "free_sugar_g": 0.88,
+      "fibre_g": 4.9
+    },
+    "hing": {
+      "energy_kcal": 331.49,
+      "carb_g": 71.95,
+      "protein_g": 6.34,
+      "fat_g": 1.26,
+      "free_sugar_g": 0.93,
+      "fibre_g": 5.13
+    },
+    "black cardamom": {
+      "energy_kcal": 270.55,
+      "carb_g": 52.53,
+      "protein_g": 6.69,
+      "fat_g": 2.8,
+      "free_sugar_g": 2.3,
+      "fibre_g": 23.46
+    },
+    "green cardamom": {
+      "energy_kcal": 255.01,
+      "carb_g": 47.76,
+      "protein_g": 8.1,
+      "fat_g": 2.6,
+      "free_sugar_g": 4.28,
+      "fibre_g": 23.1
+    },
+    "bay leaf": {
+      "energy_kcal": 313,
+      "carb_g": 74.97,
+      "protein_g": 7.61,
+      "fat_g": 8.36,
+      "free_sugar_g": 0,
+      "fibre_g": 26.3
+    },
+    "cinnamon": {
+      "energy_kcal": 247,
+      "carb_g": 80.59,
+      "protein_g": 4,
+      "fat_g": 1.2,
+      "free_sugar_g": 2.2,
+      "fibre_g": 53.1
+    },
+    "cloves": {
+      "energy_kcal": 274,
+      "carb_g": 65.53,
+      "protein_g": 5.97,
+      "fat_g": 13.0,
+      "free_sugar_g": 0,
+      "fibre_g": 33.9
+    },
+    "black pepper": {
+      "energy_kcal": 217.49,
+      "carb_g": 36.22,
+      "protein_g": 10.12,
+      "fat_g": 2.74,
+      "free_sugar_g": 0.32,
+      "fibre_g": 33.16
+    },
+    "carom seeds": {
+      "energy_kcal": 305,
+      "carb_g": 43.3,
+      "protein_g": 16.6,
+      "fat_g": 25.0,
+      "free_sugar_g": 0,
+      "fibre_g": 39.0
+    },
+    "fennel seeds": {
+      "energy_kcal": 345,
+      "carb_g": 52.3,
+      "protein_g": 15.8,
+      "fat_g": 14.9,
+      "free_sugar_g": 0,
+      "fibre_g": 39.8
+    },
+    "mustard seeds": {
+      "energy_kcal": 509.55,
+      "carb_g": 16.8,
+      "protein_g": 19.51,
+      "fat_g": 40.19,
+      "free_sugar_g": 5.07,
+      "fibre_g": 14.1
+    },
+    "fenugreek seeds": {
+      "energy_kcal": 323,
+      "carb_g": 58.4,
+      "protein_g": 23.0,
+      "fat_g": 6.4,
+      "free_sugar_g": 0,
+      "fibre_g": 24.6
+    },
+    "curry leaves": {
+      "energy_kcal": 108,
+      "carb_g": 18.7,
+      "protein_g": 6.1,
+      "fat_g": 1.0,
+      "free_sugar_g": 0,
+      "fibre_g": 6.4
+    },
+    "mace": {
+      "energy_kcal": 475,
+      "carb_g": 50.5,
+      "protein_g": 6.7,
+      "fat_g": 32.4,
+      "free_sugar_g": 0,
+      "fibre_g": 20.2
+    },
+    "nutmeg": {
+      "energy_kcal": 525,
+      "carb_g": 49.3,
+      "protein_g": 5.8,
+      "fat_g": 36.3,
+      "free_sugar_g": 0,
+      "fibre_g": 20.8
     }
   },
   "vegetables": {
@@ -121,6 +273,142 @@
       "fat_g": 0.2,
       "free_sugar_g": 3.3,
       "fibre_g": 2.7
+    },
+    "aloo": {
+      "energy_kcal": 77,
+      "carb_g": 17.2,
+      "protein_g": 2.0,
+      "fat_g": 0.1,
+      "free_sugar_g": 0.8,
+      "fibre_g": 2.2
+    },
+    "gobhi": {
+      "energy_kcal": 25,
+      "carb_g": 5.0,
+      "protein_g": 1.9,
+      "fat_g": 0.3,
+      "free_sugar_g": 1.9,
+      "fibre_g": 2.0
+    },
+    "pyaaz": {
+      "energy_kcal": 40,
+      "carb_g": 9.3,
+      "protein_g": 1.1,
+      "fat_g": 0.1,
+      "free_sugar_g": 4.2,
+      "fibre_g": 1.7
+    },
+    "tamatar": {
+      "energy_kcal": 18,
+      "carb_g": 3.9,
+      "protein_g": 0.9,
+      "fat_g": 0.2,
+      "free_sugar_g": 2.6,
+      "fibre_g": 1.2
+    },
+    "baingan": {
+      "energy_kcal": 25,
+      "carb_g": 5.9,
+      "protein_g": 1.0,
+      "fat_g": 0.2,
+      "free_sugar_g": 3.5,
+      "fibre_g": 3.0
+    },
+    "gajar": {
+      "energy_kcal": 41,
+      "carb_g": 9.6,
+      "protein_g": 0.9,
+      "fat_g": 0.2,
+      "free_sugar_g": 4.7,
+      "fibre_g": 2.8
+    },
+    "matar": {
+      "energy_kcal": 81,
+      "carb_g": 14.5,
+      "protein_g": 5.4,
+      "fat_g": 0.4,
+      "free_sugar_g": 5.7,
+      "fibre_g": 5.1
+    },
+    "beans": {
+      "energy_kcal": 31,
+      "carb_g": 7.0,
+      "protein_g": 1.8,
+      "fat_g": 0.2,
+      "free_sugar_g": 3.3,
+      "fibre_g": 2.7
+    },
+    "hari mirch": {
+      "energy_kcal": 40,
+      "carb_g": 9.0,
+      "protein_g": 2.0,
+      "fat_g": 0.2,
+      "free_sugar_g": 5.0,
+      "fibre_g": 1.5
+    },
+    "methi": {
+      "energy_kcal": 34.42,
+      "carb_g": 2.17,
+      "protein_g": 3.68,
+      "fat_g": 0.83,
+      "free_sugar_g": 0.88,
+      "fibre_g": 4.9
+    },
+    "palak": {
+      "energy_kcal": 23,
+      "carb_g": 3.6,
+      "protein_g": 2.9,
+      "fat_g": 0.4,
+      "free_sugar_g": 0.4,
+      "fibre_g": 2.2
+    },
+    "lauki": {
+      "energy_kcal": 14,
+      "carb_g": 3.4,
+      "protein_g": 0.6,
+      "fat_g": 0.1,
+      "free_sugar_g": 1.2,
+      "fibre_g": 0.6
+    },
+    "tinda": {
+      "energy_kcal": 21,
+      "carb_g": 4.7,
+      "protein_g": 0.6,
+      "fat_g": 0.1,
+      "free_sugar_g": 2.0,
+      "fibre_g": 1.2
+    },
+    "karela": {
+      "energy_kcal": 17,
+      "carb_g": 3.7,
+      "protein_g": 1.0,
+      "fat_g": 0.2,
+      "free_sugar_g": 1.0,
+      "fibre_g": 2.8
+    },
+    "bhindi": {
+      "energy_kcal": 33,
+      "carb_g": 7.5,
+      "protein_g": 1.9,
+      "fat_g": 0.2,
+      "free_sugar_g": 1.5,
+      "fibre_g": 3.2
+    },
+    "arbi": {
+      "energy_kcal": 86,
+      "carb_g": 20.1,
+      "protein_g": 1.5,
+      "fat_g": 0.1,
+      "free_sugar_g": 0.5,
+      "fibre_g": 3.7
+    },
+    "shakarkandi": {
+      "energy_kcal": 86,
+      "carb_g": 20.1,
+      "protein_g": 1.6,
+      "fat_g": 0.1,
+      "free_sugar_g": 4.2,
+      "fibre_g": 3.0
     }
   },
   "dairy": {
@@ -139,6 +427,46 @@
       "fat_g": 36.0,
       "free_sugar_g": 2.8,
       "fibre_g": 0
+    },
+    "dahi": {
+      "energy_kcal": 61,
+      "carb_g": 4.7,
+      "protein_g": 3.5,
+      "fat_g": 3.3,
+      "free_sugar_g": 4.7,
+      "fibre_g": 0
+    },
+    "makhan": {
+      "energy_kcal": 717,
+      "carb_g": 0.1,
+      "protein_g": 0.9,
+      "fat_g": 81.1,
+      "free_sugar_g": 0.1,
+      "fibre_g": 0
+    },
+    "ghee": {
+      "energy_kcal": 900,
+      "carb_g": 0,
+      "protein_g": 0,
+      "fat_g": 100,
+      "free_sugar_g": 0,
+      "fibre_g": 0
+    },
+    "khoya": {
+      "energy_kcal": 322,
+      "carb_g": 29.0,
+      "protein_g": 17.0,
+      "fat_g": 20.0,
+      "free_sugar_g": 29.0,
+      "fibre_g": 0
+    },
+    "chenna": {
+      "energy_kcal": 265,
+      "carb_g": 1.2,
+      "protein_g": 18.3,
+      "fat_g": 20.8,
+      "free_sugar_g": 0,
+      "fibre_g": 0
     }
   },
   "oils": {
@@ -149,6 +477,180 @@
       "fat_g": 100,
       "free_sugar_g": 0,
       "fibre_g": 0
+    },
+    "oil": {
+      "energy_kcal": 884,
+      "carb_g": 0,
+      "protein_g": 0,
+      "fat_g": 100,
+      "free_sugar_g": 0,
+      "fibre_g": 0
+    }
+  },
+  "grains": {
+    "atta": {
+      "energy_kcal": 364,
+      "carb_g": 76.3,
+      "protein_g": 12.1,
+      "fat_g": 1.5,
+      "free_sugar_g": 0.3,
+      "fibre_g": 2.7
+    },
+    "maida": {
+      "energy_kcal": 364,
+      "carb_g": 76.3,
+      "protein_g": 10.3,
+      "fat_g": 0.9,
+      "free_sugar_g": 0.3,
+      "fibre_g": 2.7
+    },
+    "besan": {
+      "energy_kcal": 387,
+      "carb_g": 58.9,
+      "protein_g": 22.4,
+      "fat_g": 6.7,
+      "free_sugar_g": 2.9,
+      "fibre_g": 10.8
+    },
+    "rice flour": {
+      "energy_kcal": 366,
+      "carb_g": 80.1,
+      "protein_g": 6.0,
+      "fat_g": 0.7,
+      "free_sugar_g": 0.1,
+      "fibre_g": 2.4
+    },
+    "rava": {
+      "energy_kcal": 360,
+      "carb_g": 72.8,
+      "protein_g": 11.2,
+      "fat_g": 1.0,
+      "free_sugar_g": 0.2,
+      "fibre_g": 3.9
+    }
+  },
+  "pulses": {
+    "chana": {
+      "energy_kcal": 164,
+      "carb_g": 27.4,
+      "protein_g": 8.9,
+      "fat_g": 2.6,
+      "free_sugar_g": 4.8,
+      "fibre_g": 7.6
+    },
+    "dal": {
+      "energy_kcal": 116,
+      "carb_g": 20.1,
+      "protein_g": 7.6,
+      "fat_g": 0.4,
+      "free_sugar_g": 1.1,
+      "fibre_g": 3.7
+    },
+    "moong dal": {
+      "energy_kcal": 105,
+      "carb_g": 19.2,
+      "protein_g": 7.0,
+      "fat_g": 0.4,
+      "free_sugar_g": 2.0,
+      "fibre_g": 3.5
+    },
+    "toor dal": {
+      "energy_kcal": 114,
+      "carb_g": 19.1,
+      "protein_g": 7.2,
+      "fat_g": 0.5,
+      "free_sugar_g": 1.2,
+      "fibre_g": 3.6
+    },
+    "urad dal": {
+      "energy_kcal": 127,
+      "carb_g": 22.8,
+      "protein_g": 8.7,
+      "fat_g": 0.6,
+      "free_sugar_g": 1.4,
+      "fibre_g": 4.1
+    },
+    "masoor dal": {
+      "energy_kcal": 116,
+      "carb_g": 20.1,
+      "protein_g": 7.6,
+      "fat_g": 0.4,
+      "free_sugar_g": 1.1,
+      "fibre_g": 3.7
+    },
+    "chana dal": {
+      "energy_kcal": 164,
+      "carb_g": 27.4,
+      "protein_g": 8.9,
+      "fat_g": 2.6,
+      "free_sugar_g": 4.8,
+      "fibre_g": 7.6
+    },
+    "rajma": {
+      "energy_kcal": 127,
+      "carb_g": 22.8,
+      "protein_g": 8.7,
+      "fat_g": 0.6,
+      "free_sugar_g": 1.4,
+      "fibre_g": 4.1
+    },
+    "lobia": {
+      "energy_kcal": 116,
+      "carb_g": 20.1,
+      "protein_g": 7.6,
+      "fat_g": 0.4,
+      "free_sugar_g": 1.1,
+      "fibre_g": 3.7
+    }
+  },
+  "herbs": {
+    "adrak": {
+      "energy_kcal": 80,
+      "carb_g": 17.8,
+      "protein_g": 1.8,
+      "fat_g": 0.6,
+      "free_sugar_g": 1.7,
+      "fibre_g": 2.0
+    },
+    "lehsun": {
+      "energy_kcal": 149,
+      "carb_g": 33.1,
+      "protein_g": 6.4,
+      "fat_g": 0.5,
+      "free_sugar_g": 1.0,
+      "fibre_g": 2.1
+    },
+    "ginger-garlic": {
+      "energy_kcal": 80,
+      "carb_g": 17.8,
+      "protein_g": 1.8,
+      "fat_g": 0.6,
+      "free_sugar_g": 1.7,
+      "fibre_g": 2.0
+    },
+    "mint": {
+      "energy_kcal": 44,
+      "carb_g": 8.4,
+      "protein_g": 3.3,
+      "fat_g": 0.7,
+      "free_sugar_g": 0.5,
+      "fibre_g": 2.0
+    },
+    "basil": {
+      "energy_kcal": 23,
+      "carb_g": 2.7,
+      "protein_g": 3.2,
+      "fat_g": 0.6,
+      "free_sugar_g": 0.3,
+      "fibre_g": 1.6
+    },
+    "green onions": {
+      "energy_kcal": 32,
+      "carb_g": 7.3,
+      "protein_g": 1.8,
+      "fat_g": 0.2,
+      "free_sugar_g": 2.3,
+      "fibre_g": 2.6
     }
   }
 }
